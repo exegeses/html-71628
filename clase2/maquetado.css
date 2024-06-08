@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    background-color: #0E0609;
+    color: #f5ebf0;
+}
+
+header{
+    width: 1100px;
+    height: 128px;
+    background-color: #29111D;
+    margin: auto; /* Centrar un contenedor en el eje horizontal */
+}
+
+main{
+    width: 1100px;
+    height: 650px;
+    margin: auto;
+}
+footer{
+    width: 1100px;
+    height: 212px;
+    background-color: #190B10;
+    margin: auto;
+}
