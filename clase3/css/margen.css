@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2c0427;
+    color: hsl(308, 83%, 86%);
+    font-size: 24px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+}
+header{
+    height: 96px;
+    background-color: hsl(308, 93%, 64%);
+}
+main{
+    width: 768px;
+    margin: auto;
+}
+    h1{
+        margin: 24px;
+    }
+    p{
+        margin: 32px;
+    }
+    section{
+        height: 380px;
+        background-color: hsl(308, 30%, 14%);
+        margin: 32px 0px;
+    }
+        article{
+            width: 100px;
+            height: 100px;
+            background-color: hsl(308, 50%, 40%);
+            margin: 16px;
+        }
+
+ /* --------------  */       
+ #primero{
+    background-color: hsl(73, 30%, 18%);
+    display: flex;
+    /* alinear en el eje horizontal  X */
+    /* justify-content: start; /* Predeterminado: alineado hacia la izquierda */
+    /* justify-content: end; /* Alineado hacia la derecha */
+    justify-content: center;
+ }
+    #primero img,
+    #francia img
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+#francia{
+    background-color: hsl(201, 30%, 18%);
+    display: flex;
+    /* alinear en el eje vertial  Y */
+    /* align-items: start; /* Predeterminado: arriba */
+    /* align-items: end; /* En la parte inferior (abajo) */
+    align-items: center;
+}
+
+#tercero{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
