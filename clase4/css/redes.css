@@ -1,0 +1,15 @@
+footer{
+    background-color: #d00;
+    height: 214px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+    footer div a{
+        margin: 8px;
+    }
+
+        footer div a img{
+            width: 32px;
+        }
