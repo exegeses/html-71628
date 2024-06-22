@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Figtree", sans-serif;
+    background-color:  hsl(218, 20%, 26%);
+    color:  hsl(218, 20%, 86%);
+    font-size: 24px;
+}
+    main{
+        width: 768px;
+        margin: auto;
+
+    }
+        #primero{
+            height: 380px;
+            background-color:  hsl(218, 20%, 14%);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        article{
+            width: 128px;
+            height: 96px;
+            background-color:  hsl(218, 20%, 60%);
+            border: 1px solid hsl(218, 20%, 90%);
+        }

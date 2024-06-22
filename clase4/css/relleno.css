@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Figtree", sans-serif;
+    background-color: hsl(218, 20%, 16%);
+    color: hsl(218, 20%, 86%);
+    font-size: 24px;
+}
+    main{
+        width: 768px;
+        margin: auto;
+    }
+
+        h1{
+            background-color: #6284a0;
+            padding: 24px;
+            margin: 32px 0px;
+        }
+
+        article{
+            width: 320px;
+            height: 156px;
+            background-color: #6284a0;
+            border: 2px solid hsl(207, 100%, 51%);
+            padding: 32px;
+            margin: 24px;
+        }
+
+
+    section{
+        height: 128px;
+        padding: 24px;
+        background-color: hsl(148, 25%, 30%);
+    }
+        section h2{
+            background-color: #6284a0;
+        }
