@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Figtree", sans-serif;
+    color: #304534;
+    font-size: 24px;
+}
+main{
+    width: 768px;
+    margin: 48px auto;
+}
+    h1{
+        font-weight: 400;
+    }
+
+    article{
+        width: 480px;
+        height: 80px;
+        margin: 40px auto;
+    }
+    #primero{
+        background-color: hsl(131, 18%, 86%);
+        /* box-shadow: ejeX ejeX blur color; */
+        box-shadow: 8px 8px 0px #666;
+    }
+    #francia{
+        background-color: hsl(131, 18%, 86%);
+        /* box-shadow: ejeX ejeX blur color; */
+        box-shadow: 8px 8px 8px #666;
+    }
+    #tercero{
+        border-radius: 8px;
+        /* background-color: hsl(131, 18%, 86%);*/
+        /* box-shadow: ejeX ejeX blur color; */
+        box-shadow: 0px 2px 8px hsla(0, 0%, 40%, .50);
+    }
+    #cuarto{
+        height: 256px;
+        width: 100%;
+        border-radius: 8px;
+        background-color: hsl(131, 18%, 70%);
+        /* box-shadow: ejeX ejeX blur color; */
+        box-shadow: 0px 2px 8px #666;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 80px;
+        /* text-shadow:  ejeX ejeX blur color; */
+        text-shadow: 1px 1px 0px #fff;
+    }

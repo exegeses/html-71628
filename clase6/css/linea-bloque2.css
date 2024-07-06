@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(287, 40%, 14%);
+    color: hsl(287, 50%, 86%);
+    font-family: Figtree, sans-serif;
+    font-size: 24px;
+}
+main{
+    width: 768px;
+    margin: 48px auto;
+}
+h1,h2{
+    margin-top: 24px;
+    font-weight: 400;
+}
+p{
+    margin: 16px 0px;
+}
+
+#primero, #francia{
+    margin: 32px 0px;
+    height: 280px;
+    background-color: hsl(287, 40%, 20%);
+}
+article{
+    background-color: hsl(287, 40%, 10%);
+    width: 216px;
+    height: 64px;
+}
+#primero article{
+    display: inline-block;
+}
+#francia{
+    display: flex;
+}
